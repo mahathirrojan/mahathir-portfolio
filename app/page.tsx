@@ -290,8 +290,8 @@ const Projects = () => {
              <div className="max-w-5xl mx-auto">
                 <ProjectSign
                     title="Knicks Dashboard"
-                    line="K"
-                    color={MTA_BLUE}
+                    line="NYK"
+                    color={MTA_ORANGE}
                     type="Next.js • TypeScript • REST API"
                     desc="A real-time Knicks dashboard that displays live scores, recent games, player stats, and box scores using ESPN’s public NBA API. Built with Next.js and TypeScript for fast loading and smooth UI updates."
                     link="http://knicks-dashboard.vercel.app"
@@ -300,7 +300,7 @@ const Projects = () => {
                 <ProjectSign
                     title="Hunter Helpdesk Kiosk"
                     line="H"
-                    color={MTA_BLUE}
+                    color={MTA_PURPLE}
                     type="Next.js • PostgreSQL • TypeScript"
                     desc="A digital check-in system used by 20,000+ students. Features real-time queue logic, admin dashboard, and kiosk interfaces to replace paper logs."
                     link="https://hunter-helpdesk-kiosk.vercel.app"
@@ -330,6 +330,16 @@ const Projects = () => {
                     desc="AI-powered analysis of movie trailers for emotion and pacing, comparing machine insights against audience reactions."
                     link="https://github.com/aurnabdas/CapStone-Film-Analyzer"
                 />
+
+                <ProjectSign
+                    title="FaceSpecs"
+                    line="FS"
+                    color={MTA_GREEN}
+                    type="HTML • CSS • JavaScript • FaceAPI"
+                    desc="FaceSpecs is an innovative web application that uses real-time facial recognition to provide insights into age, gender, emotion, and more. Experience our cutting-edge technology and see how it can enhance your digital interactions."
+                    link="https://face-specs.vercel.app"
+                />
+
              </div>
         </div>
     </section>
